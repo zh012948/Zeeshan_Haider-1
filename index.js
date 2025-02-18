@@ -9,7 +9,7 @@ let isMenuOpen = false;
 menu.addEventListener('click', () => {
     if (!isMenuOpen) {
         // Open menu
-        menu.src = "close.png"; // Change to close icon
+        menu.src = "images/close.png"; // Change to close icon
         navlinks.forEach(link => {
             link.style.display = 'block'; // Show navigation links
         });
@@ -17,7 +17,7 @@ menu.addEventListener('click', () => {
         isMenuOpen = true; // Update state
     } else {
         // Close menu
-        menu.src = "menu.png"; // Change to menu icon
+        menu.src = "images/menu.png"; // Change to menu icon
         navlinks.forEach(link => {
             link.style.display = 'none'; // Hide navigation links
         });
