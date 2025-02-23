@@ -4,6 +4,17 @@
     box-sizing: border-box;
     font-family: sans-serif;
     -webkit-tap-highlight-color: transparent;
+
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        width: 50px;
+        background-color: #3dfbcfc7;
+
+
+    }
 }
 
 
