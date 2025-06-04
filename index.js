@@ -5,27 +5,40 @@ const navbar = document.getElementById('navbar');
 // Track menu toggle state
 let isMenuOpen = false;
 
-
 menu.addEventListener('click', () => {
     if (!isMenuOpen) {
-        // Open menu
-        menu.src = "images/close.png"; // Change to close icon
-        navlinks.forEach(link => {
-            link.style.display = 'block'; // Show navigation links
-        });
-        navbar.style.height = "400px"; // Increase navbar height
-        isMenuOpen = true; // Update state
+        openMenu();
     } else {
-        // Close menu
-        menu.src = "images/menu.png"; // Change to menu icon
-        navlinks.forEach(link => {
-            link.style.display = 'none'; // Hide navigation links
-        });
-        navbar.style.height = "80px"; // Reset navbar height
-        isMenuOpen = false; // Update state
+        closeMenu();
     }
 });
 
+function openMenu() {
+    menu.src = "images/close.png"; // Change to close icon
+    navlinks.forEach(link => {
+        link.style.display = 'block'; // Show navigation links
+    });
+    navbar.style.height = "400px"; // Increase navbar height
+    isMenuOpen = true;
+}
+
+function closeMenu() {
+    menu.src = "images/menu.png"; // Change to menu icon
+    navlinks.forEach(link => {
+        link.style.display = 'none'; // Hide navigation links
+    });
+    navbar.style.height = "80px"; // Reset navbar height
+    isMenuOpen = false;
+}
+
+// Add event listener to each nav link
+navlinks.forEach(link => {
+    link.addEventListener('click', () => {
+        if (isMenuOpen) {
+            closeMenu(); // Automatically close menu on link click
+        }
+    });
+});
 
 
 function git_1() {
