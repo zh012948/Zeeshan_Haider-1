@@ -42,42 +42,42 @@ navlinks.forEach(link => {
 
 
 function git_1() {
-    window.open("https://github.com/zh012948/Live-Code-Editor", "_blank");
+    window.open("https://github.com/zh012948/image-converter", "_blank");
 }
 
 function live_1() {
-    window.open("https://zh012948.github.io/Live-Code-Editor/", "_blank");
+    window.open("https://image-converter-tkkn.onrender.com/", "_blank");
 
 }
 
 function git_2() {
 
-    window.open("https://github.com/zh012948/Budget-App", "_blank");
+    window.open("https://github.com/zh012948/eccomerce", "_blank");
 }
 
 
 function live_2() {
-    window.open("https://zh012948.github.io/Budget-App/", "_blank");
+    window.open("https://kasana-watches.vercel.app/", "_blank");
 
 }
 
 function git_3() {
-    window.open("https://github.com/zh012948/tailwindcss-detector-Chrome-Extension", "_blank");
+    window.open("https://github.com/zh012948/figma-to-code-coffee-bean", "_blank");
 
 }
 
 function live_3() {
-    window.open("https://github.com/zh012948/tailwindcss-detector-Chrome-Extension", "_blank");
+    window.open("https://bean-scene-xi.vercel.app/", "_blank");
 
 }
 
 
 function git_4() {
-    window.open("https://github.com/zh012948/Github-Api", "_blank");
+    window.open("https://github.com/zh012948/tailwindcss-detector-Chrome-Extension", "_blank");
 }
 
 function live_4() {
-    window.open("https://zh012948.github.io/Github-Api/", "_blank");
+    window.open("https://github.com/zh012948/tailwindcss-detector-Chrome-Extension", "_blank");
 
 }
 
